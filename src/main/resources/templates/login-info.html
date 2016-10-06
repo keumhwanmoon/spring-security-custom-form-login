@@ -6,7 +6,9 @@
 </head>
 <body>
 
-Hello, World!
+Logged user: <span sec:authentication="name">Bob</span>
+
+Roles: <span sec:authentication="principal.authorities">[ROLE_USER, ROLE_ADMIN]</span>
 
 </body>
 </html>
